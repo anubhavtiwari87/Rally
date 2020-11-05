@@ -8,8 +8,8 @@ pipeline
   steps {
           script
           {
-           sh '''
-           curl 'http://dummy.restapiexample.com/api/v1/employees'
+           bat '''
+           ping 'http://dummy.restapiexample.com/api/v1/employees'
            '''
           }
         }
